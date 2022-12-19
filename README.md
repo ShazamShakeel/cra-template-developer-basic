@@ -8,5 +8,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Use Yarn to install this template
 
 ```
-yarn create react-app my-app --template quickstarter
+yarn create react-app my-app --template essential
 ```
