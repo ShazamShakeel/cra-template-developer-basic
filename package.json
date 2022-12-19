@@ -1,0 +1,26 @@
+{
+  "name": "cra-template-developer-basic",
+  "description": "Create-React-App template configured with husky, commitlint, eslint and prettier.",
+  "version": "1.1.0",
+  "main": "template.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShazamShakeel/cra-template-developer-basic.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "husky",
+    "commitlint",
+    "eslint",
+    "prettier",
+    "quickstarter",
+    "shazamshakeel"
+  ],
+  "files": [
+    "template",
+    "template.json"
+  ]
+}

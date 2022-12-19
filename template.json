@@ -1,0 +1,45 @@
+{
+  "package": {
+    "engines": {
+      "node": ">=16.0.0",
+      "yarn": ">=1.22.0",
+      "npm": "please-use-yarn"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject",
+      "lint": "eslint --ext .js,.ts,.jsx,.tsx src",
+      "format": "yarn run lint --fix & yarn prettier --write 'src/**/*.{js,jsx,ts,tsx}'"
+    },
+    "browserslist": {
+      "production": [">0.2%", "not dead", "not op_mini all"],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    },
+    "dependencies": {
+      "@testing-library/jest-dom": "^5.16.5",
+      "@testing-library/react": "^13.4.0",
+      "@testing-library/user-event": "^14.4.3",
+      "web-vitals": "^3.1.0"
+    },
+    "devDependencies": {
+      "@commitlint/cli": "^17.3.0",
+      "@commitlint/config-conventional": "^17.3.0",
+      "eslint": "^8.30.0",
+      "eslint-config-airbnb": "^19.0.4",
+      "eslint-config-prettier": "^8.5.0",
+      "eslint-plugin-import": "^2.26.0",
+      "eslint-plugin-jsx-a11y": "^6.6.1",
+      "eslint-plugin-prettier": "^4.2.1",
+      "eslint-plugin-react": "^7.31.11",
+      "eslint-plugin-react-hooks": "^4.6.0",
+      "husky": "^8.0.2",
+      "prettier": "^2.8.1"
+    }
+  }
+}
