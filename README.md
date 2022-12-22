@@ -1,6 +1,6 @@
 ### Description
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It is pre configured with husky, commitlint, eslint and prettier.
+[Create React App](https://github.com/facebook/create-react-app) template configured with husky, commitlint, eslint and prettier.
 
 ## Installation
 
@@ -8,5 +8,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Use Yarn to install this template
 
 ```
-yarn create react-app my-app --template quickstarter
+yarn create react-app my-app --template developer-basic
 ```
